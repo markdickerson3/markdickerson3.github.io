@@ -1,50 +1,71 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body {
-    background: lightgreen;
-    font-family: Verdana;
-}  
-#content {
-    background: lightyellow;
-    min-width: 200px;
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
-    margin-top: -50px;
-    line-height: 150%;
-}
-h1 {
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-}
-h2 {
-    font-size: 14px;
-    text-align: center;
-}
-h3 {
-    font-size: 12px;
-}
-</style>
-</head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>About us - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+</head>
+
 <body>
-    <div id="content">
-        <h1>Mark Dickerson</h1>
-        <h2>Sophomore in Greenville, South Carolina</h2>
-        
-         <p>I am a sophomore at Bob Jones University studying accounting. I also play for the Bob Jones University Bruins basketball team.</p>
-         <p>
-            I am in a long distance relationship with my girlfriend Abigail who is from Michigan just like I am. In the summer, I work at my grandmothers greenhouse, and I also work at several basketball camps with my dad.
-         </p> 
-         <p>
-            I love the outdoors, and I am a big time hunter and fisherman.
-         </p>
-        
-        <h3>EDUCATION</h3>
-        Accounting
-        Bob Jones University
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="index.html">Mark's Blog</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="post.html">Blog Post</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Dropdown </a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('about-bg.jpg');">
+        <div class="overlay" style="border-color: var(--white);background: var(--white);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 offset-sm-1 mx-auto">
+                    <div class="site-heading" style="background: url(&quot;assets/img/20210209mbb-tfc-ba65.jpg&quot;) top / cover no-repeat;">
+                        <h1>About Me</h1><span class="subheading">Everything I like to do</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <p>First off, I love playing basketball. I have seemingly held a basketball in my hands ever since I was born. I am currently in my second year playing at Bob Jones University.&nbsp;</p>
+                <p>Secondly, I am a big time hunter and fisherman. I love getting out and fishing for small and largemouth bass during the summer. And in the fall/winter, you can almost always find me in a deer blind with a bow or rifle in my hands.</p>
+                <p>Lastly, I am an Accounting major. I will be looking to take 150 credits so that I can pursue getting my CPA. After that, I am not quite sure what direction I want to go yet.</p>
+            </div>
+        </div>
     </div>
-           
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"></li>
+                    </ul>
+                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Brand 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/clean-blog.js"></script>
 </body>
+
 </html>
